@@ -1,4 +1,4 @@
-  <h3 align="center">#A 3D Developer Portfolio</h3>
+  <h1 align="center">A 3D Developer Portfolio</h3>
 
 Used the following frameworks and technologies:
 Add Node Modules
