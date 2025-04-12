@@ -1,6 +1,6 @@
-  <h3 align="center">3D Developer Portfolio</h3>
+  <h1 align="center">3D Developer Portfolio</h3>
 
-## Personal 3D Website heavily guided and inspired by Adrian Hajdin
+### Personal 3D Website heavily guided and inspired by Adrian Hajdin
 
 ### Used the following frameworks and technologies:
 - React.js
