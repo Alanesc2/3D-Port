@@ -1,5 +1,9 @@
   <h1 align="center">3D Developer Portfolio</h3>
 
+<div align="center">
+  <img width="735" alt="Screenshot 2025-05-14 at 1 21 21 PM" src="https://github.com/user-attachments/assets/1d637681-58c5-42a1-a9ac-17f16fb7b5d6" />
+</div>
+
 ### Personal 3D Website heavily guided and inspired by Adrian Hajdin
 
 ### Used the following frameworks and technologies:
