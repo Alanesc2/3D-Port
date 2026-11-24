@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, github } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -50,6 +50,18 @@ const Navbar = () => {
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
+          <li className='flex items-center'>
+            <a
+              href='https://github.com/Alanesc2'
+              target='_blank'
+              rel='noreferrer'
+              className='flex items-center'
+              aria-label='GitHub Profile'
+              title='GitHub'
+            >
+              <img src={github} alt='github' className='w-7 h-7 object-contain' />
+            </a>
+          </li>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -77,6 +89,19 @@ const Navbar = () => {
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
+              <li className='font-poppins font-medium cursor-pointer text-[16px]'>
+                <a
+                  href='https://github.com/Alanesc2'
+                  target='_blank'
+                  rel='noreferrer'
+                  className='flex items-center gap-2'
+                  aria-label='GitHub Profile'
+                  title='GitHub'
+                >
+                  <img src={github} alt='github' className='w-5 h-5 object-contain' />
+                  GitHub
+                </a>
+              </li>
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}

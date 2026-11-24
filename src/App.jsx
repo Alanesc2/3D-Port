@@ -1,6 +1,8 @@
 import { BrowserRouter } from "react-router-dom";
 
-import { About, Contact, Hero, Navbar, Tech, StarsCanvas } from "./components";
+import { About, Contact, Hero, Navbar, Tech, Projects, StarsCanvas } from "./components";
+
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
   return (
@@ -12,10 +14,12 @@ const App = () => {
         </div>
         <About />
         <Tech />
+        <Projects />
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />
         </div>
+        <Analytics />
       </div>
     </BrowserRouter>
   );

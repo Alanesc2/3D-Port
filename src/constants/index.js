@@ -24,6 +24,10 @@ export const navLinks = [
     title: "About",
   },
   {
+    id: "projects",
+    title: "Projects",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -45,6 +49,10 @@ const services = [
   {
     title: "UI/UX Developer",
     icon: creator,
+  },
+  {
+    title: "Automation Engineer",
+    icon: backend,
   },
 ];
 
@@ -103,4 +111,27 @@ const technologies = [
   },
 ];
 
-export { services, technologies };
+const projects = [
+  {
+    title: "Course Registration Bot",
+    tags: ["Automation", "Web Scraping", "Python"],
+    github: "https://github.com/Alanesc2/Registration-Bot",
+  },
+  {
+    title: "Fine Motor Skills App",
+    tags: ["p5.js", "JavaScript"],
+    github: "https://github.com/",
+  },
+  {
+    title: "3D Game Engine",
+    tags: ["C++"],
+    github: "https://github.com/Alanesc2/3D-Engine",
+  },
+  {
+    title: "Painting Website",
+    tags: ["React", "Next.js", "JavaScript", "UI/UX", "Vercel"],
+    live: "https://escuderopainting.vercel.app",
+  },
+];
+
+export { services, technologies, projects };
