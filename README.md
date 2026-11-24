@@ -12,10 +12,15 @@
   </div>
 
   <h3 align="center">A 3D Developer Portfolio</h3>
+  <p>Personal 3D website, guided and inspired by Adrian Hajdin.</p>
 
    <div align="center">
      Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
     </div>
+</div>
+
+<div align="center">
+  <img width="735" alt="Portfolio screenshot" src="https://github.com/user-attachments/assets/1d637681-58c5-42a1-a9ac-17f16fb7b5d6" />
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -120,7 +125,6 @@ npm run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
-
 ## <a name="snippets">🕸️ Snippets</a>
 
 <details>
